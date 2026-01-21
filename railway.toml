@@ -1,8 +1,5 @@
 [build]
 builder = "NIXPACKS"
 
-[deploy]
-startCommand = "php artisan optimize:clear && php artisan migrate --force || true"
-
 [env]
-PHP_VERSION = "8.3"
+PHP_VERSION = "8.2"
