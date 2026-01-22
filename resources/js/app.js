@@ -1,3 +1,4 @@
+import 'bootstrap';
 // resources/js/app.js
 document.addEventListener('DOMContentLoaded', function () {
     // Select navbar and hero
